@@ -1,6 +1,6 @@
 import { treemap } from "d3-hierarchy"
-import ChartContainer from "./ChartContainer"
-import TreemapNode from "./TreemapNode"
+import ChartContainer from "../ChartComponents/ChartContainer"
+import TreemapNode from "../ChartComponents/TreemapNode"
 
 export default function Treemap(props) {
   const width = 850
@@ -23,7 +23,6 @@ export default function Treemap(props) {
     .round(true)
 
   treemapLayoutGenerator(root)
-  console.log(leaves[0])
 
   return (
     <div>

@@ -1,6 +1,6 @@
-import ChartContainer from "./ChartContainer"
-import TreeLink from "./TreeLink"
-import TreeNode from "./TreeNode"
+import ChartContainer from "../ChartComponents/ChartContainer"
+import TreeLink from "../ChartComponents/TreeLink"
+import TreeNode from "../ChartComponents/TreeNode"
 import { tree } from "d3-hierarchy"
 import { link, curveBumpX } from "d3-shape"
 

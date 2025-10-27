@@ -1,7 +1,7 @@
-import ChartContainer from "./ChartContainer"
+import ChartContainer from "../ChartComponents/ChartContainer"
 import { pack } from "d3-hierarchy"
 import { interpolate } from "d3-interpolate"
-import LangCircle from "./LangCircle"
+import LangCircle from "../ChartComponents/LangCircle"
 
 export default function CirclePack(props) {
 

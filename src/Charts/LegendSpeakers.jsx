@@ -1,5 +1,5 @@
-import ChartContainer from "./ChartContainer"
-import Circle from "./Circle"
+import ChartContainer from "../ChartComponents/ChartContainer"
+import Circle from "../ChartComponents/Circle"
 import { format } from "d3-format"
 
 export default function LegendSpeakers(props) {
